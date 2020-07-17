@@ -4,20 +4,24 @@
 }
 
 body {
-  background: #000;
   height: 100%;
   margin: 0;
+
+  background: #000;
 }
 
 .background-image {
   position: fixed;
-  left: 0;
+  z-index: 1;
   right: 0;
+  left: 0;
+
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
   opacity: 0.5;
-  z-index: 1;
+
+  object-fit: cover;
 }
 
 .content {
@@ -27,8 +31,10 @@ body {
 
 .main-nav {
   float: right;
-  list-style: none;
+
   margin-top: 10px;
+
+  list-style: none;
 }
 
 .main-nav li {
@@ -36,15 +42,18 @@ body {
 }
 
 .main-nav li a {
-  color: white;
-  text-decoration: none;
   padding: 5px 20px;
+
+  text-decoration: none;
+
+  color: white;
+
   font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
 .main-nav li a:hover {
-  border: 1px solid white;
+  border: 1px solid #ff4b4b;
 }
 
 .header {
@@ -53,53 +62,67 @@ body {
 
 .portrait-circle {
   position: relative;
-  left: 50%;
   top: 50px;
+  left: 50%;
+
   width: 200px;
   height: 200px;
   margin-left: -100px;
+
+  border: 1px solid #ff4b4b;
   border-radius: 50% 50% 50% 50%;
-  border: 2px solid #333;
 }
 
 .header-text-container {
-  text-align: center;
-  font-size: 175%;
   margin-top: 75px;
+
+  text-align: center;
+
+  font-size: 175%;
 }
 
 .header-text {
   color: white;
 }
 
-.about {
-  width: 100%;
-  min-height: 100%;
-  background: #EEE;
-  margin-top: 250px;
-  font-family: "Verdana";
+.header-summary {
+  color: white;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.about-title {
-  color: #f77558;
-  padding: 20px;
-  font-size: 30px;
+.links {
+    margin-top: 10px;
+    padding: 0px;
 }
 
-.face-pic {
+.links li {
+    display: inline-block;
+
+    margin: 6px;
+
+    font-size: 100%;
+}
+
+.links i {
+    opacity: 0.75;
+    color: white;
+}
+
+.links i:hover {
+    opacity: 1;
+}
+
+i.fa {
   display: inline-block;
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-  margin: 50px;
-  margin-top: 30px;
-  transform: rotate(45deg);
-}
 
-.face-pic img {
-    display: block;
-    transform: rotate(-45deg);
-    transform-origin: left center;
-    height: 300px;
-    margin-top: 40px;
+
+  padding: 0.4em 0.5em;
+
+  border-radius: 50% 50% 50% 50%;
+  border: 1px solid #ff4b4b;
 }
