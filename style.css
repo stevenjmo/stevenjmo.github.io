@@ -43,6 +43,10 @@ body {
   font-size: 15px;
 }
 
+.main-nav li a:hover {
+  border: 1px solid white;
+}
+
 .header {
   font-family: "Roboto", sans-serif;
 }
@@ -66,4 +70,36 @@ body {
 
 .header-text {
   color: white;
+}
+
+.about {
+  width: 100%;
+  min-height: 100%;
+  background: #EEE;
+  margin-top: 50px;
+  font-family: "Verdana";
+}
+
+.about-title {
+  color: #f77558;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.face-pic {
+  display: inline-block;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  margin-top: 30px;
+  transform: rotate(45deg);
+}
+
+.face-pic img {
+    display: block;
+    transform: rotate(-45deg);
+    transform-origin: left center;
+    height: 300px;
+    margin-top: 40px;
 }
