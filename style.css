@@ -135,11 +135,11 @@ i.fa {
 .projects {
   min-height: 100%;
   margin-top: 100px;
-
-  font-family: "Lato", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 .projects-title {
+  font-family: "Lato", sans-serif;
   margin-left: 1.66%;
 
   color: white;
@@ -225,13 +225,16 @@ i.fa {
 }
 
 .overlay ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 .project-name {
-  font-family: "Verdana", sans-serif;
+  font-weight: bold;
 }
 
-.project-disc {
+.project-desc {
+  font-weight: lighter;
 }
 
 .overlay-text {
