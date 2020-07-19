@@ -229,6 +229,14 @@ i.fa {
   font-size: 20px;
 }
 
+.overlay ul li a {
+  color: #ff4b4b;
+}
+
+.overlay ul li a:hover {
+  color: #ab3f3f;
+}
+
 .project-name {
   font-weight: bold;
 }
@@ -263,4 +271,12 @@ i.fa {
 
 .project-img2 {
   background-image: url("image/background2.jpg")
+}
+
+.project-face {
+  background-image: url("image/Steven-Mo.jpg")
+}
+
+.project-runner {
+  background-image: url("image/projects-runner-image.jpg")
 }
