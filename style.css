@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  height: 100%
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -86,13 +90,15 @@ body {
 }
 
 .header-summary {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-style: italic;
-  font-size: 20px;
   margin: 15px;
-  margin-left: 20%;
   margin-right: 20%;
+  margin-left: 20%;
+
+  color: white;
+
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .links {
@@ -120,22 +126,24 @@ body {
 i.fa {
   display: inline-block;
 
-
   padding: 0.4em 0.5em;
 
-  border-radius: 50% 50% 50% 50%;
   border: 1px solid #ff4b4b;
+  border-radius: 50% 50% 50% 50%;
 }
 
 .projects {
   min-height: 100%;
-  font-family: "Lato", sans-serif;
   margin-top: 100px;
+
+  font-family: "Lato", sans-serif;
 }
 
 .projects-title {
   margin-left: 1.66%;
+
   color: white;
+
   font-size: 40px;
   font-weight: bold;
 }
@@ -145,40 +153,105 @@ i.fa {
 }
 
 .project-square {
-  float: left;
   position: relative;
-  width: 30%;
-  padding-bottom: 30%;
-  margin: 1.66%;
+
+  float: left;
   overflow: hidden;
+
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+
   background-color: white;
 }
 
 .square-content {
   position: absolute;
-  height: 80%;
+
   width: 90%;
+  height: 80%;
   padding: 10% 5%;
 }
 
 .table {
   display: table;
-  height: 100%;
+
   width: 100%;
+  height: 100%;
 }
 
 .table-cell {
   display: table-cell;
-  vertical-align: middle;
-  height: 100%;
+
   width: 100%;
+  height: 100%;
+
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  transition: .5s ease;
+
+  opacity: 0;
+  background-color: white;
+}
+
+.table-cell:hover .overlay {
+  opacity: 0.80;
+}
+
+.overlay ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  list-style: none;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  color: black;
+}
+
+.overlay ul li {
+}
+
+.project-name {
+  font-family: "Verdana", sans-serif;
+}
+
+.project-disc {
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  color: black;
 }
 
 .bg {
-  background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    color:#fff;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .project-img1 {
