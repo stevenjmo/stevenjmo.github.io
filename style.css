@@ -280,3 +280,11 @@ i.fa {
 .project-runner {
   background-image: url("image/projects-runner-image.jpg")
 }
+
+.project-converter {
+  background-image: url("image/projects-converter-image.jpg")
+}
+
+.project-calculator {
+  background-image: url("image/projects-calculator-image.jpg")
+}
