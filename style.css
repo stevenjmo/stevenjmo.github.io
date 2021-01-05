@@ -11,7 +11,7 @@ body {
   height: 100%;
   margin: 0;
 
-  background: #000;
+  background: #fff8ed;
 }
 
 .background-image {
@@ -50,18 +50,18 @@ body {
 
   text-decoration: none;
 
-  color: white;
+  color: black;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 15px;
 }
 
 .main-nav li a:hover {
-  border: 1px solid #ff4b4b;
+  border: 1px solid black;
 }
 
 .header {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .portrait-circle {
@@ -73,7 +73,7 @@ body {
   height: 200px;
   margin-left: -100px;
 
-  border: 1px solid #ff4b4b;
+  border: 1px solid black;
   border-radius: 50% 50% 50% 50%;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .header-text {
-  color: white;
+  color: black;
 }
 
 .header-summary {
@@ -94,7 +94,7 @@ body {
   margin-right: 20%;
   margin-left: 20%;
 
-  color: white;
+  color: black;
 
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -116,7 +116,7 @@ body {
 
 .links i {
     opacity: 0.75;
-    color: white;
+    color: black;
 }
 
 .links i:hover {
@@ -128,7 +128,7 @@ i.fa {
 
   padding: 0.4em 0.5em;
 
-  border: 1px solid #ff4b4b;
+  border: 1px solid black;
   border-radius: 50% 50% 50% 50%;
 }
 
@@ -142,7 +142,7 @@ i.fa {
   font-family: "Lato", sans-serif;
   margin-left: 1.66%;
 
-  color: white;
+  color: black;
 
   font-size: 40px;
   font-weight: bold;
