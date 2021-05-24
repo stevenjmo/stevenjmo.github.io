@@ -63,11 +63,11 @@ header {
 }
 
 .nav-links li a {
-  transition: all 0.3s ease 0s;
+  transition: all 0.25s ease 0s;
 }
 
 .nav-links li a:hover {
-  text-decoration: black;
+  color: #91ebff;
   text-decoration: underline;
 }
 
@@ -121,12 +121,16 @@ header {
 }
 
 .links i {
-    opacity: 0.75;
+    transition: all 0.25s ease 0s;
+
+    opacity: 0.6;
     color: black;
 }
 
 .links i:hover {
     opacity: 1;
+    color: #91ebff;
+    border: 1px solid #91ebff;
 }
 
 i.fa {
@@ -135,5 +139,5 @@ i.fa {
   padding: 0.4em 0.5em;
 
   border: 1px solid black;
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 10% 10% 10% 10%;
 }
