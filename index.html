@@ -1,50 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Steven Mo</title>
+    </head>
 
-<head>
-  <title>Steven Mo</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-</head>
+    <body class="body">
+        <div class="splash-page">
+            <div class="navbar">
+                <div class="logo">Steven Mo</div>
+                <div class="nav">
+                    <div class="nav-button"><a href="index.html">About</a></div>
+                    <div class="nav-button"><a href="#portfolio-part">Portfolio</a></div>
+                    <div class="nav-button"><a href="#contact-part">Contact</a></div>
+                </div>
+            </div>
+        </div>
 
-<body>
+        <div class="inner">
+            <div class="summary">
+                <h1 class="headline">Steven Mo</h1>
+                <h2 class="summary-text">software developer studying computer science @ UC Berkeley</h2>
+                <p class="scroll-text">Scroll down to view some of my past work!</p>
+                <p><a href="#portfolio-part">&#9660</a></p>
+            </div>
 
-  <div class="content">
-    <header>
-      <h3 class="name">Steven Mo</h3>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="html/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+            <div class="portfolio" id="portfolio-part">
+                <div class="proj-row">
+                    <div class="proj-left">
+                        <div class="proj-desc">
+                            <h2 class="proj-name">RouteRunner iOS App</h2>
+                            <p class="proj-summary">A health and fitness app called Route Runner.
+                                Developed using Swift and Xcode and published onto the App Store.
+                            </p>
+                            <p class="proj-summary">The app allowed users to create accounts, login, and create and save
+                                custom running routes by dragging and dropping pins onto a map. The route would save 
+                                information such as location and distance, and would be displayed in a list. Users also
+                                had a profile page that displayed their username and kept track of statistics such as
+                                number of miles ran and total distance ran.
+                            </p>
+                            <p class="proj-summary">The iOS app was coded in Swift, using Xcode as the primary
+                                tool in creating the UI, View Controllers, and Storyboards. Google Firebase was used for
+                                account creation, which stored user data and allowed me to design and create the structure
+                                of the database from scratch. To create routes, the app used the iOS MapKit framework which
+                                let users pull up Apple Maps and drop pins wherever they wanted.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="proj-right">
+                        <div class="proj-images">
+                            <img class="proj-img" src="image/map.png">
+                            <img class="proj-img" src="image/list.png">
+                        </div>
+                    </div>
+                </div>
 
-    <div id="summary" class="summary">
-      <div class="summary-text-container">
-        <h1 class="summary-title">Steven Mo</h1>
-        <h5 class="summary-title">Computer Science</h5>
-        <h6 class="summary-desc">Hi! My name is Steven Mo, and I am an undergraduate student at UC Berkeley studying Computer Science.</h6>
-        <h6 class="summary-desc">I am interested in software engineering and am looking to gain new technical skills and experience before I graduate. I enjoy creating products that benefit and am interested in areas such as ML, AI, and mobile development.</h6>
-        <ul class="links">
-          <li><a href="mailto:stevenjmo17@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
-          </li>
-          <li><a href="https://www.linkedin.com/in/stevenjmo/" target="_blank"><i class="fa fa-linkedin"></i><a>
-          </li>
-          <li><a href="https://github.com/stevenjmo" target="_blank"><i class="fa fa-github"></i><a>
-          </li>
-          <li><a href="resume.pdf" target="_blank"><i class="fa fa-file"></i><a>
-          </li>
-        <ul>
-      </div>
-    </div>
-  </div>
+                <div class="proj-row">
+                    <div class="proj-left">
+                        <div class="proj-images">
+                            <img class="proj-img" src="image/cardboardvr.png">
+                            <img class="proj-img" src="image/arcore.png">
+                        </div>
+                    </div>
+                    <div class="proj-right">
+                        <div class="proj-desc">
+                            <h2 class="proj-name">Augmented Reality Exhibit</h2>
+                            <p class="proj-summary">An augmented reality exhibit premiered at the Lawrence Hall of science
+                                in Berkeley, California.
+                            </p>
+                            <p class="proj-summary">The exhibit used Google's ARCore technology and a 360 degree camera to
+                                let viewers experience an interactable world that told a story. Users controlled the camera
+                                and movable parts inside an enclosed space from the outside to simulate augmented reality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="contact" id="contact-part">
+                <div class="contact-links">
+                    <a href="mailto:stevenjmo17@berkeley.edu" target="_blank">Email</a>
+                    <a href="https://www.linkedin.com/in/stevenjmo/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/stevenjmo" target="_blank">Github</a>
+                    <a href="resume.pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
 
-</body>
+    </body>
 
 </html>

@@ -1,143 +1,143 @@
-* {
+.body {
   margin: 0;
-  padding: 0;
 }
 
-html {
-  height: 100%
-}
-
-body {
-  height: 100%;
-  margin: 0;
-
-  background: white;
-}
-
-.content {
-  position: relative;
-  z-index: 2;
-}
-
-li, a {
-  text-decoration: none;
-
-  color: black;
-
+/*    HEADER / NAVBAR    */
+.splash-page {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
   font-weight: 300;
 }
 
-header {
+.navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-end;
 
-  padding: 30px 10%;
+  padding: 20px 5%;
 
-  background-color: white;
+  font-size: 16px;
+  letter-spacing: 0.1em;
 }
 
-.name {
-  margin-right: auto;
-
-  letter-spacing: 0.1em;
+.logo {
   text-transform: uppercase;
-
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-size: 20px;
 }
 
-.nav-links {
-  list-style: none;
-
-  letter-spacing: 0.1em;
+.nav {
+  display: flex;
+  justify-content: space-between;
   text-transform: lowercase;
 }
 
-.nav-links li {
-  display: inline-block;
-
-  padding: 0px 10px;
+.nav-button {
+  padding: 0px 15px;
 }
 
-.nav-links li a {
+.nav-button, a {
+  text-decoration: none;
+  color: black;
   transition: all 0.25s ease 0s;
 }
 
-.nav-links li a:hover {
+.nav-button, a:hover {
+  /* text-decoration: underline;   Why doesn't this work? */
   color: #91ebff;
-  text-decoration: underline;
 }
 
+/*    INNER    */
+.inner {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/*    ABOUT    */
 .summary {
-  font-family: "Montserrat", sans-serif;
+  padding: 8%;
+  padding-left: 8%;
+  padding-right: 33%;
 }
 
-
-.summary-text-container {
-  margin-top: 75px;
-
-  text-align: center;
-
-  font-size: 175%;
+.headline {
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: lighter;
 }
 
-.summary-title {
-  margin: 35px;
+.summary-text {
+  font-weight: lighter;
+  font-size: 40px;
+}
 
-  letter-spacing: 0em;
+.scroll-text {
+  font-size: 20px;
+}
+
+/*    PORTFOLIO    */
+.proj-row {
+  display: flex;
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 1px solid black;
+}
+
+.proj-left {
+  width: 50%;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 1px solid black;
+}
+
+.proj-right {
+  width: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.proj-desc {
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.proj-name {
+  font-weight: lighter;
+}
+
+.proj-summary {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.proj-images {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.proj-img {
+  padding: 15px;
+  width: 30%;
+  height: auto;
+}
+
+/*    CONTACT    */
+.contact {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid black;
+}
+
+.contact-links {
   text-transform: lowercase;
-
-  color: black;
-
-  font-weight: 300;
-}
-
-.summary-desc {
-  margin: 15px;
-  margin-right: 20%;
-  margin-left: 20%;
-
-  color: black;
-
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.links {
-    margin-top: 10px;
-    padding: 0px;
-}
-
-.links li {
-    display: inline-block;
-
-    margin: 6px;
-
-    font-size: 100%;
-}
-
-.links i {
-    transition: all 0.25s ease 0s;
-
-    opacity: 0.6;
-    color: black;
-}
-
-.links i:hover {
-    opacity: 1;
-    color: #91ebff;
-    border: 1px solid #91ebff;
-}
-
-i.fa {
-  display: inline-block;
-
-  padding: 0.4em 0.5em;
-
-  border: 1px solid black;
-  border-radius: 10% 10% 10% 10%;
+  letter-spacing: 0.1em;
 }
