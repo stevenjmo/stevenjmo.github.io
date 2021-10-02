@@ -111,9 +111,9 @@
 }
 
 .proj-images {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  
 }
 
 .proj-img {
