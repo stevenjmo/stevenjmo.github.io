@@ -42,7 +42,7 @@
 
 .nav-button, a:hover {
   /* text-decoration: underline;   Why doesn't this work? */
-  color: #91ebff;
+  color: #c445e4;
 }
 
 /*    INNER    */
@@ -53,9 +53,17 @@
 
 /*    ABOUT    */
 .summary {
+  color: white;
+  background-image: linear-gradient(144deg, #6da8d4, #c445e4);
+  /* background-image: linear-gradient(144deg, #ff4128, #ffeb38); */
+
   padding: 8%;
   padding-left: 8%;
   padding-right: 33%;
+  
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }
 
 .headline {
@@ -74,20 +82,28 @@
   font-size: 20px;
 }
 
+.down-arrow {
+  color: white;
+}
+
 /*    PORTFOLIO    */
+.portfolio {
+  color: black;
+}
+
 .proj-row {
   display: flex;
   width: 100vw;
   margin-left: 0;
   margin-right: 0;
-  border-top: 1px solid black;
+  border-top: 1px solid #c445e4;
 }
 
 .proj-left {
   width: 50%;
   padding-left: 0;
   padding-right: 0;
-  border-right: 1px solid black;
+  border-right: 1px solid #c445e4;
 }
 
 .proj-right {
@@ -134,7 +150,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  border-top: 1px solid black;
+  border-top: 1px solid #c445e4;
 }
 
 .contact-links {
